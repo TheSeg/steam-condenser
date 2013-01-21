@@ -42,6 +42,7 @@ included LICENSE file.
 * Al Ganiev – helios.ag(at)gmail.com
 * Daniel Phin – pro(at)danielph.in
 * "withgod" – noname(at)withgod.jp
+* John Amicangelo - amicangelo.j(at)husky.neu.edu
 
 ## See Also
 

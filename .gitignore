@@ -1,1 +1,6 @@
+# Locally complied site files.
 _site
+
+# Misc OS files
+.DS_Store
+thumbs.db

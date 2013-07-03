@@ -4,7 +4,7 @@ title:  About
 ---
 <div id="logo">
   <img alt="Steam Condenser logo"
-       src="images/steam-condenser-64x64-opaque.png" />
+       src="images/steam-condenser-0064.png" width="64" height="64" />
 </div>
 
 Steam Condenser

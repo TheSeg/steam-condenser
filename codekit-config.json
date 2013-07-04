@@ -65,19 +65,6 @@
       "outputAbbreviatedPath" : "\/javascripts\/bootstrap-scrollspy.min.js",
       "fileType" : 64
     },
-    "\/_less\/_bootstrap\/thumbnails.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/thumbnails.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/thumbnails.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/_less\/_bootstrap\/type.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -87,6 +74,19 @@
       "outputStyle" : 2,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/type.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/_less\/_bootstrap\/thumbnails.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/thumbnails.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/thumbnails.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -176,19 +176,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_less\/_bootstrap\/tooltip.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/tooltip.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/tooltip.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/_less\/_bootstrap\/navs.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -198,6 +185,19 @@
       "outputStyle" : 2,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/navs.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/_less\/_bootstrap\/tooltip.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/tooltip.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/tooltip.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -387,6 +387,17 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/javascripts\/bootstrap.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/bootstrap.min.js",
+      "fileType" : 64
     },
     "\/_less\/_bootstrap\/grid.less" : {
       "ignoreWasSetByUser" : 0,
@@ -628,19 +639,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_less\/_bootstrap\/modals.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/modals.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/modals.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/_less\/_bootstrap\/accordion.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -663,6 +661,19 @@
       "outputStyle" : 2,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/navbar.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/_less\/_bootstrap\/modals.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/modals.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/modals.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -827,15 +838,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_layouts\/code-sample.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/code-sample.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/images\/steam-condenser-0064.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -846,6 +848,15 @@
       "outputAbbreviatedPath" : "\/images\/steam-condenser-0064.png",
       "initialSize" : 2027,
       "fileType" : 8192
+    },
+    "\/_layouts\/code-sample.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/code-sample.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_less\/_bootstrap\/responsive-767px-max.less" : {
       "ignoreWasSetByUser" : 0,
@@ -1015,6 +1026,19 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/_less\/_bootstrap\/labels-badges.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/labels-badges.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/labels-badges.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/code\/community.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1034,19 +1058,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascripts\/bootstrap-typeahead.min.js",
       "fileType" : 64
-    },
-    "\/_less\/_bootstrap\/labels-badges.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/labels-badges.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/labels-badges.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
     },
     "\/javascripts\/_bootstrap\/bootstrap-dropdown.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1094,7 +1105,90 @@
     }
   },
   "manualImportLinks" : [
-
+    {
+      "type" : 0,
+      "position" : 0,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-transition.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 1,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-alert.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 2,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-button.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 3,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-carousel.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 4,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-collapse.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 5,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-dropdown.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 6,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-modal.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 7,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-tooltip.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 8,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-popover.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 9,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-scrollspy.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 10,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-tab.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    },
+    {
+      "type" : 0,
+      "position" : 11,
+      "linkedFileAbbreviatedPath" : "\/javascripts\/_bootstrap\/bootstrap-typeahead.js",
+      "baseFileAbbreviatedPath" : "\/javascripts\/bootstrap.js",
+      "followForSyntaxChecking" : 0
+    }
   ],
   "projectSettings" : {
     "hamlNoEscapeInAttributes" : 0,

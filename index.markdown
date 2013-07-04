@@ -11,7 +11,29 @@ title:  About
     <br>
     For Java, PHP and Ruby.
   </p>
-  <a class="btn btn-large btn-success" href="#">Get started today</a>
+  <div class="btn-group">
+    <a class="btn btn-success dropdown-toggle" data-toggle="dropdown" href="#">
+      Download
+      <i class="icon-caret-down"></i>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="">Java</a></li>
+      <li><a href="">PHP</a></li>
+      <li><a href="">Ruby</a></li>
+    </ul>
+  </div>
+</div>
+<div id="badgeBar" class="row-fluid">
+  <div class="span3 offset3">
+    <iframe src="http://ghbtns.com/github-btn.html?user=koraktor&amp;repo=steam-condenser&amp;type=watch&amp;count=true"
+    allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+    
+    <iframe src="http://ghbtns.com/github-btn.html?user=koraktor&amp;repo=steam-condenser&amp;type=fork&amp;count=true"
+    allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+  </div>
+  <div class="span3 offset1">
+    <a href="https://twitter.com/steamcondenser" class="twitter-follow-button" data-show-count="true">Follow @steamcondenser</a>
+  </div>
 </div>
 
 <hr>

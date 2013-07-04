@@ -65,19 +65,6 @@
       "outputAbbreviatedPath" : "\/javascripts\/bootstrap-scrollspy.min.js",
       "fileType" : 64
     },
-    "\/_less\/_bootstrap\/type.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/type.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/type.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/_less\/_bootstrap\/thumbnails.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -87,6 +74,19 @@
       "outputStyle" : 2,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/thumbnails.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/_less\/_bootstrap\/type.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/type.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/type.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -206,7 +206,7 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/javascripts\/_custom\/steam_condenser.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
@@ -519,6 +519,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/javascripts\/_html5shiv\/html5shiv.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/_html5shiv\/html5shiv.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/html5shiv.min.js",
+      "fileType" : 64
+    },
     "\/_less\/_bootstrap\/reset.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -532,18 +543,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_less\/_bootstrap\/accordion.less" : {
+    "\/javascripts\/html5shiv.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/accordion.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/accordion.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/javascripts\/html5shiv.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/html5shiv.min.min.js",
+      "fileType" : 64
     },
     "\/_less\/_bootstrap\/wells.less" : {
       "ignoreWasSetByUser" : 0,
@@ -584,6 +593,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/javascripts\/steam_condenser.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/steam_condenser.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/steam_condenser.min.min.js",
+      "fileType" : 64
+    },
     "\/images\/steam-condenser-0032.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -617,6 +637,19 @@
       "outputStyle" : 2,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/modals.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/_less\/_bootstrap\/accordion.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/accordion.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/accordion.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -794,6 +827,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/_layouts\/code-sample.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/code-sample.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/images\/steam-condenser-0064.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -804,15 +846,6 @@
       "outputAbbreviatedPath" : "\/images\/steam-condenser-0064.png",
       "initialSize" : 2027,
       "fileType" : 8192
-    },
-    "\/_layouts\/code-sample.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/code-sample.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_less\/_bootstrap\/responsive-767px-max.less" : {
       "ignoreWasSetByUser" : 0,
@@ -982,19 +1015,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_less\/_bootstrap\/labels-badges.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/labels-badges.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/labels-badges.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/code\/community.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1014,6 +1034,19 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascripts\/bootstrap-typeahead.min.js",
       "fileType" : 64
+    },
+    "\/_less\/_bootstrap\/labels-badges.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_less\/_bootstrap\/labels-badges.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/labels-badges.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/javascripts\/_bootstrap\/bootstrap-dropdown.js" : {
       "ignoreWasSetByUser" : 0,

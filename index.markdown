@@ -23,16 +23,22 @@ title:  About
     </ul>
   </div>
 </div>
-<div id="badgeBar" class="row-fluid">
-  <div class="span3 offset2">
-    <iframe src="http://ghbtns.com/github-btn.html?user=koraktor&amp;repo=steam-condenser&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
-    <iframe src="http://ghbtns.com/github-btn.html?user=koraktor&amp;repo=steam-condenser&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
-  </div>
-  <div class="span4">
-    <a href="https://twitter.com/steamcondenser" class="twitter-follow-button" data-show-count="true">Follow @steamcondenser</a>
-  </div>
-  <div class="span3">
-    <div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/109400543549250623875" data-rel="publisher"></div>
+<div id="badgeBar" class="hidden-print">
+  <div class="container">
+  <ul class="unstyled inline">
+    <li>
+      <iframe src="http://ghbtns.com/github-btn.html?user=koraktor&amp;repo=steam-condenser&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+    </li>
+    <li>
+      <iframe src="http://ghbtns.com/github-btn.html?user=koraktor&amp;repo=steam-condenser&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+    </li>
+    <li>
+      <a href="https://twitter.com/steamcondenser" class="twitter-follow-button" data-show-count="true">Follow @steamcondenser</a>
+    </li>
+    <li>
+      <div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/109400543549250623875" data-rel="publisher"></div>
+    </li>
+  </ul>
   </div>
 </div>
 

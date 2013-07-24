@@ -1,11 +1,8 @@
 ---
 layout:  default
 title:   Contribute
+summary: As many other open-source projects Steam Condenser benefits from the participation of its community. Any contribution will help to make Steam Condenser better.
 ---
-
-As many other open-source projects Steam Condenser benefits from the
-participation of its community. Any contribution will help to make Steam
-Condenser better.
 
 ## How to contribute?
 

@@ -2,8 +2,6 @@
 layout: default
 title:  License
 ---
-License
-=======
 
 Copyright (c) 2008-{{ site.time | date: "%Y" }}, Sebastian Staudt<br>
 All rights reserved.

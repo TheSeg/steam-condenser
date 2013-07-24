@@ -1,5 +1,8 @@
+@import "elements.less";
+@import "mixins.less";
+
 body {
-  padding-top: 60px;
+  padding-top: 42px;
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
@@ -32,10 +35,15 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  margin: 80px 0;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0px 20px 0px;
   text-align: center;
+  color:#fff;
+  .bg_gradient (#020031,#6d3353);
+
+  
   h1 {
-    font-size: 100px;
+    font-size: 90px;
     line-height: 1;
   }
   .lead {
@@ -48,6 +56,21 @@ body {
   }
   .dropdown-menu {
     text-align:left;
+  }
+  &.subhead {
+    text-align: left;
+    margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid #ddd;
+    
+    h1 {
+      font-size: 60px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    &.navbar {
+      display: none;
+    }
   }
 }
 

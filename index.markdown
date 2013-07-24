@@ -31,7 +31,7 @@ hide_donate: true
       <li>Ruby 1.9.2 or newer</li>
     </ul>
     <h2>License</h2>
-    <p>Steam Condenser is free software; you can redistribute it and/or modify it under the terms of the <a href="{{site.baseurl}}license/">new BSD License</a>.</p>
+    <p>Steam Condenser is free software; you can redistribute it and/or modify it under the terms of the <a href="{{site.baseurl}}/license/">new BSD License</a>.</p>
   </div>
 </div>
 

@@ -1,6 +1,7 @@
 ---
 layout: default
-title:  About
+title:  Home
+hide_donate: true
 ---
 
 <!-- Jumbotron -->
@@ -45,7 +46,7 @@ title:  About
 <hr>
 
 <div class="row-fluid">
-  <div class="span5">
+  <div class="span7">
     <h2>Features</h2>
     <ul>
       <li>Server queries
@@ -63,24 +64,23 @@ title:  About
       </li>
     </ul>
   </div>
-  <div class="span3">
+  <div class="span5">
     <h2>Requirements</h2>
     <ul>
       <li>Java 6 or newer</li>
       <li>PHP 5.3 or newer</li>
       <li>Ruby 1.9.2 or newer</li>
     </ul>
-  </div>
-  <div class="span4">
     <h2>License</h2>
-    <p>Steam Condenser is free software; you can redistribute it and/or modify it under the terms of the <a href="">new BSD License</a>.</p>
+    <p>Steam Condenser is free software; you can redistribute it and/or modify it under the terms of the <a href="{{site.baseurl}}license/">new BSD License</a>.</p>
   </div>
 </div>
 
 <br>
 
 <div class="row-fluid">
-  <div class="span10 offset2">
+  
+  <div class="span7">
     <h2>Help using Steam Condenser?</h2>
     <ul>
       <li>Check the <a href="http://groups.google.com/group/steam-condenser">Steam Condenser group</a> for a related topic or create your own.</li>
@@ -89,6 +89,32 @@ title:  About
       <li>Found an error? Check the <a href="http://github.com/koraktor/steam-condenser/issues">issue list</a> if the issue is already reported. Not there? File a new issue!</li>
     </ul>
   </div>
+  
+  <div class="span5">
+    <h2>Donate</h2>
+    <p>Text about donating.</p>
+    
+    <div class="row-fluid">
+    
+      <div class="span6 centerSpan">
+        <script type="text/javascript">
+          var flattr_url = 'http://koraktor.github.com/steam-condenser/';
+        </script>
+        <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
+      </div>
+  
+      <div class="span6 centerSpan">
+        <a href="http://www.pledgie.com/campaigns/3463">
+          <img alt="Click here to lend your support to: steam-condenser and make a
+                    donation at www.pledgie.com !"
+               src="http://pledgie.com/campaigns/3463.png?skin_name=chrome" />
+        </a>
+      </div>
+    
+    </div>
+    
+  </div>
+  
 </div>
 
 <br>

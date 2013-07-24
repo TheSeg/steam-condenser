@@ -1,6 +1,6 @@
 ---
 pages:
- - name: About
+ - name: Home
    url:  
  - name: Usage
    url:  usage
@@ -31,9 +31,13 @@ pages:
     <![endif]-->
     
     <meta name="author" content="Sebastian Staudt">
-
-    <title>Steam Condenser - {{ page.title }}</title>
-
+    
+    {% if page.title == "Index" %}
+      <title>Steam Condenser</title>
+    {% else %}
+      <title>Steam Condenser - {{ page.title }}</title>
+    {% endif %}
+    
     <script src="{{site.baseurl}}/javascripts/jquery.min.js" type="text/javascript"></script>
     <script src="{{site.baseurl}}/javascripts/bootstrap.min.js" type="text/javascript"></script>
     <script src="{{site.baseurl}}/javascripts/steam_condenser.min.js" type="text/javascript"></script>
@@ -74,14 +78,16 @@ pages:
     
     <div class="container">
       {{ content }}
-
-      {% include donate %}
+      
+      {% unless page.hide_donate %}
+        {% include donate %}
+      {% endunless %}
     </div>
     <div id="push"></div>
     </div>
     <div id="footer">
       <div class="container">
-        <p><strong>{{ site.time | date: "%Y" }}</strong> &mdash; Sebastian Staudt</p>
+        <p><strong>&copy; {{ site.time | date: "%Y" }}</strong> &mdash; Sebastian Staudt</p>
       </div>
     </div>
   </body>

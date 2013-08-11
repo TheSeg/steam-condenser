@@ -5,8 +5,6 @@ version_java: 1.3.4
 version_php:  1.3.4
 version_ruby: 1.3.5
 ---
-{{page.title}}
-==============
 
 The latest stable releases of Steam Condenser are listed below:
 
@@ -18,7 +16,7 @@ The latest stable releases of Steam Condenser are listed below:
 
 ### Ruby
 
-The prefered way to integrate the Steam Condenser gem into your project is
+The preferred way to integrate the Steam Condenser gem into your project is
 using [Bundler](http://gembundler.com). Just specify a dependency in your
 `Gemfile`:
 

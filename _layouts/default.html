@@ -16,29 +16,16 @@ pages:
 <html lang="en">
 <head>{% include head.html %}</head>
 <body>
-  <div class="wrap">
-  
   {% include navbar.html %}
-    
-  <header class="jumbotron subhead" id="overview">
-    <div class="container">
-      <h1>{{page.title}}</h1>
-      {% if page.summary %}
-      <p class="lead">{{page.summary}}</p>
-      {% endif %}
-    </div>
-  </header>
+  {% include jumbotron-mini.html %}
   
   <div class="container">
     {{ content }}
-    
     {% include donate %}
   </div>
+  
   <div id="push"></div>
-  </div>
-
-{% include footer.html %}
+  {% include footer.html %}
 </body>
 </html>
-
 <!-- This page has been last updated on {{ site.time | date: "%m/%d/%Y" }} -->

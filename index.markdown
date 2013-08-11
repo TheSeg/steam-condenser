@@ -55,18 +55,16 @@ hide_donate: true
     
     <div class="row-fluid">
     
-      <div class="span6 centerSpan">
+      <div class="span6 text-center">
         <script type="text/javascript">
           var flattr_url = 'http://koraktor.github.com/steam-condenser/';
         </script>
         <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
       </div>
   
-      <div class="span6 centerSpan">
+      <div class="span6 text-center">
         <a href="http://www.pledgie.com/campaigns/3463">
-          <img alt="Click here to lend your support to: steam-condenser and make a
-                    donation at www.pledgie.com !"
-               src="http://pledgie.com/campaigns/3463.png?skin_name=chrome" />
+          <img alt="Click here to lend your support to: steam-condenser and make a donation at www.pledgie.com !" src="http://pledgie.com/campaigns/3463.png?skin_name=chrome" />
         </a>
       </div>
     

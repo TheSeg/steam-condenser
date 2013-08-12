@@ -4,8 +4,8 @@ title:  Home
 hide_donate: true
 ---
 
-<div class="row-fluid">
-  <div class="span7">
+<div class="row">
+  <div class="col-12 col-lg-6">
     <h2>Features</h2>
     <ul>
       <li>Server queries
@@ -23,13 +23,15 @@ hide_donate: true
       </li>
     </ul>
   </div>
-  <div class="span5">
+  <div class="col-lg-2 col-sm-5">
     <h2>Requirements</h2>
     <ul>
       <li>Java 6 or newer</li>
       <li>PHP 5.3 or newer</li>
       <li>Ruby 1.9.2 or newer</li>
     </ul>
+  </div>
+  <div class="col-lg-3 col-lg-offset-1 col-sm-6 col-sm-offset1">
     <h2>License</h2>
     <p>Steam Condenser is free software; you can redistribute it and/or modify it under the terms of the <a href="{{site.baseurl}}/license/">new BSD License</a>.</p>
   </div>
@@ -37,9 +39,9 @@ hide_donate: true
 
 <br>
 
-<div class="row-fluid">
+<div class="row">
   
-  <div class="span7">
+  <div class="col-12 col-lg-6">
     <h2>Help using Steam Condenser?</h2>
     <ul>
       <li>Check the <a href="http://groups.google.com/group/steam-condenser">Steam Condenser group</a> for a related topic or create your own.</li>
@@ -49,20 +51,20 @@ hide_donate: true
     </ul>
   </div>
   
-  <div class="span5">
+  <div class="col-12 col-lg-6">
     <h2>Donate</h2>
     <p>Text about donating.</p>
     
-    <div class="row-fluid">
+    <div class="row">
     
-      <div class="span6 text-center">
+      <div class="col-6 text-center">
         <script type="text/javascript">
           var flattr_url = 'http://koraktor.github.com/steam-condenser/';
         </script>
         <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
       </div>
   
-      <div class="span6 text-center">
+      <div class="col-6 text-center">
         <a href="http://www.pledgie.com/campaigns/3463">
           <img alt="Click here to lend your support to: steam-condenser and make a donation at www.pledgie.com !" src="http://pledgie.com/campaigns/3463.png?skin_name=chrome" />
         </a>
@@ -77,7 +79,7 @@ hide_donate: true
 <br>
 
 <div class="row">
-  <div class="span8 offset2" style="text-align:center;">
+  <div class="col-12 text-center">
 {% include google_adsense %}
   </div>
 </div>

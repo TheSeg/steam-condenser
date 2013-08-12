@@ -14,6 +14,6 @@
         "font-awesome": "latest",
         "holderjs": "latest",
         "html5shiv": "latest",
-        "bootstrap": "latest"
+        "bootstrap": "https://github.com/twbs/bootstrap/archive/3.0.0-wip.zip"
     }
 }

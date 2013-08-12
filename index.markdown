@@ -78,9 +78,4 @@ hide_donate: true
 
 <br>
 
-<div class="row">
-  <div class="col-12 text-center">
 {% include google_adsense %}
-  </div>
-</div>
-

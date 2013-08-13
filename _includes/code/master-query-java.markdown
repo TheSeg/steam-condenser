@@ -1,5 +1,3 @@
-
-
 ```java
 Random randomizer = new Random();
 MasterServer master = new MasterServer(MasterServer.GOLDSRC_MASTER_SERVER);   

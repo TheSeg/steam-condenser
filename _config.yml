@@ -14,3 +14,8 @@ headerNav:
    url:  contribute
  - name: License
    url:  license
+
+scVersions:
+    java: 1.3.4
+    php:  1.3.4
+    ruby: 1.3.5

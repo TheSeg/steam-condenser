@@ -3,3 +3,14 @@ markdown:  redcarpet
 permalink: pretty
 pygments:  true
 exclude:   [README.md,bower.json,bower_components]
+
+# Site Content Vars.
+headerNav:
+ - name: Usage
+   url:  usage
+ - name: Installation
+   url:  install
+ - name: Contribute
+   url:  contribute
+ - name: License
+   url:  license

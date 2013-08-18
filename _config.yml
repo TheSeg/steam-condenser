@@ -6,10 +6,10 @@ exclude:   [README.md,bower.json,bower_components]
 
 # Site Content Vars.
 headerNav:
- - name: Usage
-   url:  usage
  - name: Installation
    url:  install
+ - name: Usage
+   url:  usage
  - name: Contribute
    url:  contribute
  - name: License

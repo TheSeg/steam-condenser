@@ -1,17 +1,24 @@
-    <div class="navbar navbar-inverse">
-      <div class="container">
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="navbar-header">
         <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
+          <img src="{{site.baseurl}}/images/steam-condenser-0032.png" width="18" height="18"> Steam Condenser
         </button>
         
-        <a class="navbar-brand" href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/steam-condenser-0032.png" width="18" height="18"> Steam Condenser</a>
-        
         <!-- Place everything within .nav-collapse to hide it until above 768px -->
-        <div class="nav-collapse collapse navbar-responsive-collapse">
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
+            {% if page.title == "Home" %}
+            <li class="active">
+            {% else %}
+            <li>
+            {% endif %}
+              <a class="navbar-brand" href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/steam-condenser-0032.png" width="18" height="18"> Steam Condenser</a>
+            </li>
             {% for item in page.pages %}
             {% if item.name == page.title %}
             <li class="active">
@@ -24,4 +31,4 @@
           </ul>
         </div>
       </div>
-    </div>
+    </nav>

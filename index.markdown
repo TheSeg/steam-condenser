@@ -5,7 +5,7 @@ hide_donate: true
 ---
 
 <div class="row">
-  <div class="col-12 col-lg-6">
+  <div class="col-sm-12 col-md-6">
     <h2>Features</h2>
     <ul>
       <li>Server queries
@@ -23,7 +23,7 @@ hide_donate: true
       </li>
     </ul>
   </div>
-  <div class="col-lg-2 col-sm-5">
+  <div class="col-sm-5 col-md-2">
     <h2>Requirements</h2>
     <ul>
       <li>Java 6 or newer</li>
@@ -41,7 +41,7 @@ hide_donate: true
 
 <div class="row">
   
-  <div class="col-12 col-lg-6">
+  <div class="col-sm-12 col-lg-6">
     <h2>Help using Steam Condenser?</h2>
     <ul>
       <li>Check the <a href="http://groups.google.com/group/steam-condenser">Steam Condenser group</a> for a related topic or create your own.</li>
@@ -51,20 +51,20 @@ hide_donate: true
     </ul>
   </div>
   
-  <div class="col-12 col-lg-6">
+  <div class="col-sm-12 col-lg-6">
     <h2>Donate</h2>
     <p>Text about donating.</p>
     
     <div class="row">
     
-      <div class="col-6 text-center">
+      <div class="col-sm-6 text-center">
         <script type="text/javascript">
           var flattr_url = 'http://koraktor.github.com/steam-condenser/';
         </script>
         <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
       </div>
   
-      <div class="col-6 text-center">
+      <div class="col-sm-6 text-center">
         <a href="http://www.pledgie.com/campaigns/3463">
           <img alt="Click here to lend your support to: steam-condenser and make a donation at www.pledgie.com !" src="http://pledgie.com/campaigns/3463.png?skin_name=chrome" />
         </a>

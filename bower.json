@@ -1,19 +1,20 @@
 {
-    "name": "steam-condenser",
+    "name": "steam-condenser-website",
     "version": "2.0.0",
     "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests",
-    "_site"
+        "**/.*",
+        "node_modules",
+        "_bower_components",
+        "test",
+        "tests",
+        "_site"
     ],
     "dependencies": {
         "jquery": "latest",
         "font-awesome": "latest",
         "holderjs": "latest",
         "html5shiv": "latest",
-        "bootstrap": "https://github.com/twbs/bootstrap/archive/3.0.0-wip.zip"
-    }
+        "bootstrap": "latest"
+    },
+    "private": false
 }

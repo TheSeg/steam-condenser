@@ -1,6 +1,7 @@
 # Jekyll Ignore #
 _site
 # Bower Ignore #
+_bower_components
 bower_components
 
 # OS generated files #

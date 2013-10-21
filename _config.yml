@@ -2,7 +2,7 @@ baseurl:   /steam-condenser
 markdown:  redcarpet
 permalink: pretty
 pygments:  true
-exclude:   [README.md,bower.json,bower_components]
+exclude:   [README.md,bower.json,_bower_components]
 
 # Site Content Vars.
 headerNav:

@@ -1,4 +1,4 @@
-```ruby
+{% highlight ruby %}
 server = SourceServer.new('127.0.0.1')
 begin
   server.rcon_auth('passw0rd')
@@ -6,4 +6,4 @@ begin
 rescue RCONNoAuthException
   warn 'Could not authenticate with the game server.'
 end
-```
+{% endhighlight %}

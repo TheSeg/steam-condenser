@@ -14,6 +14,8 @@ headerNav:
    url:  contribute
  - name: License
    url:  license
+ - name: Blog
+   url:  blog
 
 scVersions:
     java: 1.3.4

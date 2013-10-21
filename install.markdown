@@ -107,4 +107,4 @@ $ git clone git://github.com/koraktor/steam-condenser.git
 
 <br><br>
 
-{% include google_adsense %}
+{% include google_adsense.html %}

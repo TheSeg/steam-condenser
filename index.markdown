@@ -78,4 +78,4 @@ hide_donate: true
 
 <br>
 
-{% include google_adsense %}
+{% include google_adsense.html %}

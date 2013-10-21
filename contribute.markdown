@@ -28,7 +28,7 @@ summary: As many other open-source projects Steam Condenser benefits from the pa
    in the upper right and [donate][4] any amount you want. Each buck will be used for
    the project, e.g. an own web server. You can also use the Flattr button to support Steam Condenser. The amount donated via Flattr depends on your Flattr settings.
 
-{% include google_adsense %}
+{% include google_adsense.html %}
 
  [1]: http://github.com/koraktor/steam-condenser/issues
  [2]: http://github.com/koraktor/steam-condenser/fork

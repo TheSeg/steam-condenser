@@ -4,6 +4,9 @@ _site
 _bower_components
 bower_components
 
+# Grunt Ignore #
+node_modules
+
 # OS generated files #
 .DS_Store
 .DS_Store?
